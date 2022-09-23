@@ -1,13 +1,11 @@
 //import logo from './logo.svg';
 import './App.css';
+import Container from './components/Container'
+import React from 'react'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Brisco's Portfolio Goes Here!</h1>
-      </header>
-    </div>
+   <Container/>
   );
 }
 
