@@ -1,0 +1,37 @@
+img.myPicture {
+    border-radius: 30px;
+    width: 100%;
+  }
+
+.split-para { 
+  display:block;
+}
+
+.split-para span {
+  display:block;
+  float:right;
+  /* width:50%; */
+
+}
+
+hr.dashed {
+  border-top: 1px dashed black;
+}
+hr.section {
+  border-top: 2px solid black;
+}
+
+.res-box {
+  border: 2px rgba(0, 0, 0, 0.466) solid;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: calc(10pt + 6 * ((100vw - 800px) / 800));
+  }
+}
+
+/* add: */
+/* scalers for font based off viewport(vw) */
